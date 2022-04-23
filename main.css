@@ -10351,10 +10351,10 @@ h3 {
 #preloader {
   background: #000 url('img/loader.gif') no-repeat center;
   background-size: 20%;
-  height: 100vh;
+  min-height: 100vh;
   width: 100vw;
   position: fixed;
-  z-index: 1000;
+  z-index: 100;
 }
 
 @media screen and (max-width: 1150px) {
@@ -10416,6 +10416,9 @@ h3 {
   .floating-text h1 {
     font-size: 30px !important;
     margin-top: -3px !important;
+  }
+  #preloader {
+    background-size: 50%;
   }
 }
 @media screen and (max-width: 550px) {

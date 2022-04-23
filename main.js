@@ -76,7 +76,26 @@ setInterval(function () {
 
 
 // loader func
+// const loader = document.getElementById("preloader");
+// window.addEventListener("load", function () {
+//   loader.style.display = "none"
+// });
+
+
+
+// loader func with timer
 const loader = document.getElementById("preloader");
+let isReady = false;
 window.addEventListener("load", function () {
-  loader.style.display = "none"
+  isReady = true;
 });
+let loadCounter = 0;
+
+let loadTimer = setInterval(() => {
+  if (loadCounter >= 1 && isReady) {
+    loader.style.display = "none";
+    clearInterval(loadTimer);
+  } else { 
+    loadCounter++;
+ }
+}, 1000);
