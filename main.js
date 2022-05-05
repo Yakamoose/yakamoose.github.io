@@ -1,12 +1,12 @@
 //NAVBAR MOBILE MENU RESPONSIVENESS TRIGGER
-function myFunction() {
-  var x = document.getElementById("myTopNav");
-  if (x.className === "nav nav-fill d-flex align-items-center") {
-    x.className += "nav nav-fill d-flex align-items-center responsive";
-  } else {
-    x.className = "nav nav-fill d-flex align-items-center";
-  }
-}
+// function myFunction() {
+//   var x = document.getElementById("myTopNav");
+//   if (x.className === "nav nav-fill d-flex align-items-center") {
+//     x.className += "nav nav-fill d-flex align-items-center responsive";
+//   } else {
+//     x.className = "nav nav-fill d-flex align-items-center";
+//   }
+// }
 
 
 

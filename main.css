@@ -10013,7 +10013,7 @@ h3 {
   font-family: beastly, sans-serif;
   font-weight: bold;
   letter-spacing: 2px;
-  font-size: 50px;
+  font-size: 70px;
 }
 .body #countdown p {
   font-family: termina, sans-serif;
@@ -10261,6 +10261,13 @@ h3 {
   letter-spacing: 10px;
   font-size: 13px;
 }
+.body .arrive .to-do .container .description {
+  font-family: termina, sans-serif;
+  letter-spacing: 5px;
+  font-size: 11px;
+  margin-bottom: 0;
+  line-height: 1;
+}
 .body .arrive .to-do .container a {
   display: block;
   font-family: beastly, sans-serif;
@@ -10272,6 +10279,8 @@ h3 {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  line-height: 1;
+  margin-bottom: 15px;
 }
 .body .reg-contact {
   background-color: #96a480;
@@ -10399,7 +10408,9 @@ h3 {
   .boxes {
     top: 17% !important;
   }
-
+  .body .details .boxes .col-sm {
+    min-height: auto;
+  }
   .floating-text {
     width: 74% !important;
   }
@@ -10420,7 +10431,7 @@ h3 {
 @media screen and (max-width: 550px) {
   .boxes {
     width: 90% !important;
-    top: 15% !important;
+    top: 12% !important;
   }
   .boxes .header {
     line-height: 25px;
@@ -10445,7 +10456,7 @@ h3 {
 
   .floating-text {
     right: 8% !important;
-    bottom: 3% !important;
+    bottom: 1% !important;
     width: 88% !important;
   }
 
