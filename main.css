@@ -10282,6 +10282,29 @@ h3 {
   line-height: 1;
   margin-bottom: 15px;
 }
+.body .more-info {
+  background-color: #f5e1a4;
+  color: #d45e00;
+  position: relative;
+  min-height: 20rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 7%;
+}
+.body .more-info div {
+  border: 30px solid #d45e00;
+  width: 45%;
+  padding: 25px;
+}
+.body .more-info h6 {
+  font-family: beastly, sans-serif;
+  font-size: 40px;
+}
+.body .more-info p {
+  font-family: termina, sans-serif;
+  
+  font-size: 15px;
+}
 .body .reg-contact {
   background-color: #96a480;
   font-family: beastly, sans-serif;
@@ -10419,6 +10442,18 @@ h3 {
   .floating-text h1 {
     font-size: 30px !important;
     margin-top: -3px !important;
+  }
+  .body .more-info {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7%;
+  }
+  .body .more-info div {
+    width: 90%;
+  }
+  .body .more-info .covid {
+    margin-bottom: 30px;
   }
   .body .arrive .to-do .activities {
     margin-bottom: 86px;
