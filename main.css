@@ -10404,7 +10404,9 @@ h3 {
   .body .details .img-container {
     height: 1150px;
   }
-
+  .body #countdown h1 {
+    font-size: 40px;
+  }
   .boxes {
     top: 17% !important;
   }
@@ -10456,7 +10458,7 @@ h3 {
 
   .floating-text {
     right: 8% !important;
-    bottom: 1% !important;
+    bottom: 3% !important;
     width: 88% !important;
   }
 
