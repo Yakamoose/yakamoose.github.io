@@ -10418,7 +10418,12 @@ h3 {
   .body .about .text {
     padding-bottom: 40px;
   }
-
+  .body .about .title {
+    margin-top: 1.5rem !important;
+  }
+  .body .about .bride {
+    margin-top: 3rem;
+  }
   .title-box {
     margin-top: 1rem !important;
     margin-bottom: 1rem !important;
