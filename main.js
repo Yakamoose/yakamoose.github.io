@@ -92,7 +92,7 @@ window.addEventListener("load", function () {
 let loadCounter = 0;
 
 let loadTimer = setInterval(() => {
-  if (loadCounter >= 1 && isReady) {
+  if (loadCounter >= 3 && isReady) {
     loader.style.display = "none";
     clearInterval(loadTimer);
   } else { 
